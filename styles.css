@@ -1,0 +1,59 @@
+
+body {
+    padding-top: 100px;
+}
+
+#controls,
+#container,
+#puzzlearea {
+	width: 400px;
+}
+
+h1 {
+	text-align: center;
+    padding-bottom: 30px;
+}
+
+/* Used to center the puzzle. */
+#container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* The area that holds the 15 puzzle pieces. */
+#puzzlearea {
+	font-size: 32px;
+	height: 400px;
+	/* padding: 30px; */
+	position: relative;
+}
+
+/* This class should be applied to each of the 15 puzzle pieces. */
+.tile {
+    display: inline-block;
+    font-weight: 700;
+    color: slategrey;
+	border: 2px solid black;
+	height: 96px;
+	line-height: 96px;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	width: 96px;
+}
+
+/* Shuffle button parent container*/
+#controls {
+	padding-top: 30px;
+	text-align: center;
+}
+
+.image {
+    position: relative;
+}
+
+.pokeball {
+    position: absolute;
+    right: 30px;
+    width: 150px;
+}
